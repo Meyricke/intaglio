@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intaglio support</title>
+<meta name="description" content="Intaglio support for Intaglio, the iPhone app that puts your contact card and links one tap from your Lock Screen.">
+<meta name="referrer" content="no-referrer">
+<style>
+:root { color-scheme: light dark; --bg: #fbf7f4; --ink: #1d110d; --soft: #6a5850; --rule: #e6d9d1; --accent: #a83a1d; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #170d0a; --ink: #f4e9e3; --soft: #b9a399; --rule: #3a2620; --accent: #f5855c; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 1.0625rem/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main, header, footer { max-width: 40rem; margin: 0 auto; padding: 0 1.25rem; }
+header { padding-top: 2rem; display: flex; align-items: center; gap: .75rem; }
+header svg { width: 2.25rem; height: 2.25rem; flex: none; color: var(--accent); }
+header a { color: var(--ink); text-decoration: none; font-weight: 600; letter-spacing: .01em; }
+h1 { font-size: 2rem; line-height: 1.15; margin: 2.5rem 0 1rem; letter-spacing: -.01em; }
+h2 { font-size: 1.2rem; line-height: 1.3; margin: 2.25rem 0 .5rem; }
+p, ul { margin: 0 0 1rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: .4rem; }
+a { color: var(--accent); text-underline-offset: .15em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+em { color: var(--soft); }
+footer { margin-top: 3rem; padding-top: 1.25rem; padding-bottom: 3rem; border-top: 1px solid var(--rule);
+  color: var(--soft); font-size: .95rem; }
+</style>
+</head>
+<body>
+<header><svg viewBox="0 0 36 36" role="img" aria-label="Intaglio"><circle cx="18" cy="18" r="16" fill="none" stroke="currentColor" stroke-width="2.5"/><g fill="currentColor"><rect x="10" y="10" width="6" height="6" rx="1.2"/><rect x="20" y="10" width="6" height="6" rx="1.2"/><rect x="10" y="20" width="6" height="6" rx="1.2"/><circle cx="21.5" cy="21.5" r="1.4"/><circle cx="25" cy="25" r="1.4"/><circle cx="21.5" cy="25" r="1.4"/></g></svg><a href="index.html">Intaglio</a></header>
+<main>
+<h1>Intaglio support</h1>
+<p>Intaglio puts your contact card and your links on your Lock Screen, one tap from a code someone can scan. This page covers the questions that come up most. If yours is not here, write to <a href="mailto:support@meyricke.com">support@meyricke.com</a>.</p>
+<h2>Putting it on your Lock Screen</h2>
+<p>Touch and hold the Lock Screen, tap <strong>Customise</strong>, choose the Lock Screen, then tap the row of widgets under the clock and pick <strong>Intaglio</strong>. Tapping the widget opens your default card at full brightness.</p>
+<p>The widget is a button, not a code. A code that small could not be scanned, so the widget's job is to get you to the real one in a single tap.</p>
+<h2>Choosing which card opens first</h2>
+<p>The card at the top of <strong>Setup</strong> is your default: it is what the widget, Siri and the Control Centre button open. To change it, tap <strong>Edit</strong> and drag a different card to the top.</p>
+<h2>Their camera will not read the code</h2>
+<ul>
+  <li>Hold the phone still, about a hand's length from their camera, and let them move rather than you.</li>
+  <li>Intaglio turns the screen to full brightness while a code is showing. If Low Power Mode or a privacy screen protector is dimming it, that is the usual cause.</li>
+  <li>A contact card with many links makes a dense code. If it struggles in poor light, show a single link instead, such as LinkedIn: those codes are much simpler and scan from further away.</li>
+</ul>
+<h2>A link opens the wrong page</h2>
+<p>Open the card in <strong>Setup</strong> and use <strong>Open to check it works</strong>. Handles are easy to mistype, and Intaglio does not check them over the internet, because it never goes online.</p>
+<h2>Keeping track of who you met</h2>
+<p>Tap the viewfinder at the top of <strong>Share</strong> to scan someone else's code. Intaglio notes the event you are at and gives you room for a line about them. Saving them to Contacts uses the standard iOS contact sheet, and only when you ask.</p>
+<h2>Your data</h2>
+<p>Everything you enter stays on your phone. There is no account and nothing is uploaded, so there is nothing for us to reset, recover or delete on your behalf. Deleting the app removes all of it. The full detail is in the <a href="privacy.html">privacy policy</a>.</p>
+<h2>Contact</h2>
+<p>Questions, problems and suggestions: <a href="mailto:support@meyricke.com">support@meyricke.com</a></p>
+</main>
+<footer><a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
